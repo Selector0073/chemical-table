@@ -6,5 +6,3 @@
             \/      \/      \/       \/          \/      \/                            \/     \/            \/ 
 
         Das Projekt wurde für eine Informatikstunde erstellt. 
-        
-        Der Autor ist Stanislav. 
