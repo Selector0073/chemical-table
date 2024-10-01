@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5m82ehyc4oot"
+path="res://.godot/imported/Hg.obj-8c4217729b74cb1a21f82388246c7773.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Hg.obj-8c4217729b74cb1a21f82388246c7773.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Hg.obj"
+dest_files=["res://.godot/imported/Hg.obj-8c4217729b74cb1a21f82388246c7773.mesh", "res://.godot/imported/Hg.obj-8c4217729b74cb1a21f82388246c7773.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

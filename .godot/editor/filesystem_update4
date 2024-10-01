@@ -1,0 +1,6 @@
+res://Scenes/Scene 1/main.tscn
+res://Scenes/Scene 1/Button.gd
+res://Scenes/Scene 1/main.gd
+res://Scenes/Scene 1/Camera3D.gd
+res://Scenes/Scene 1/RayCast3D.gd
+res://Scenes/Scene 1/Marker3D.gd

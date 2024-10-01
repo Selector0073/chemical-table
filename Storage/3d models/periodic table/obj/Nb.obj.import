@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://katvpuakb2br"
+path="res://.godot/imported/Nb.obj-60dffdce56630a8a139fba7b54cf7bcf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Nb.obj-60dffdce56630a8a139fba7b54cf7bcf.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Nb.obj"
+dest_files=["res://.godot/imported/Nb.obj-60dffdce56630a8a139fba7b54cf7bcf.mesh", "res://.godot/imported/Nb.obj-60dffdce56630a8a139fba7b54cf7bcf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b20kgorvry8t0"
+path="res://.godot/imported/Eu.obj-3b85005cf6e5b7b64119a149133cbd8c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Eu.obj-3b85005cf6e5b7b64119a149133cbd8c.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Eu.obj"
+dest_files=["res://.godot/imported/Eu.obj-3b85005cf6e5b7b64119a149133cbd8c.mesh", "res://.godot/imported/Eu.obj-3b85005cf6e5b7b64119a149133cbd8c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

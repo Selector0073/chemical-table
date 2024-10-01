@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dqu5vw6sfmlyu"
+path="res://.godot/imported/Li.obj-79b8c250bd8d36cf6b2c463116a7482a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Li.obj-79b8c250bd8d36cf6b2c463116a7482a.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Li.obj"
+dest_files=["res://.godot/imported/Li.obj-79b8c250bd8d36cf6b2c463116a7482a.mesh", "res://.godot/imported/Li.obj-79b8c250bd8d36cf6b2c463116a7482a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

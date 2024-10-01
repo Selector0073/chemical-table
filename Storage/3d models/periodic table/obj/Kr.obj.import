@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bfue3rrt4lk00"
+path="res://.godot/imported/Kr.obj-c04efaba03eb197bf804cb51d6688611.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Kr.obj-c04efaba03eb197bf804cb51d6688611.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Kr.obj"
+dest_files=["res://.godot/imported/Kr.obj-c04efaba03eb197bf804cb51d6688611.mesh", "res://.godot/imported/Kr.obj-c04efaba03eb197bf804cb51d6688611.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

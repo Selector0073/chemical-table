@@ -1,0 +1,1668 @@
+[gd_scene load_steps=124 format=3 uid="uid://dedj167i2265s"]
+
+[ext_resource type="Script" path="res://Scenes/Scene 1/main.gd" id="1_2idvj"]
+[ext_resource type="ArrayMesh" uid="uid://2etf85id01o" path="res://Storage/3d models/periodic table/obj/Ac.obj" id="1_yko5x"]
+[ext_resource type="Script" path="res://Scenes/Scene 1/RayCast3D.gd" id="2_g6mj4"]
+[ext_resource type="ArrayMesh" uid="uid://dcwobb0fn1mch" path="res://Storage/3d models/periodic table/obj/Ag.obj" id="2_tfj3f"]
+[ext_resource type="ArrayMesh" uid="uid://cc4fgx6jkgxnj" path="res://Storage/3d models/periodic table/obj/Al.obj" id="3_qshff"]
+[ext_resource type="ArrayMesh" uid="uid://bkgg1c2qejwai" path="res://Storage/3d models/periodic table/obj/Am.obj" id="4_tu66i"]
+[ext_resource type="ArrayMesh" uid="uid://bq17emppgup0p" path="res://Storage/3d models/periodic table/obj/Ar.obj" id="5_7fbo7"]
+[ext_resource type="ArrayMesh" uid="uid://drs8oku7v6bb1" path="res://Storage/3d models/periodic table/obj/As.obj" id="6_iw02f"]
+[ext_resource type="ArrayMesh" uid="uid://ceao47udfwld5" path="res://Storage/3d models/periodic table/obj/At.obj" id="7_yptrp"]
+[ext_resource type="ArrayMesh" uid="uid://iysjev6fstfq" path="res://Storage/3d models/periodic table/obj/Au.obj" id="8_6q0fl"]
+[ext_resource type="ArrayMesh" uid="uid://bk4qyv3v0mgy7" path="res://Storage/3d models/periodic table/obj/B.obj" id="9_aidvc"]
+[ext_resource type="ArrayMesh" uid="uid://wrtbaqyheyhl" path="res://Storage/3d models/periodic table/obj/Ba.obj" id="10_pglbx"]
+[ext_resource type="ArrayMesh" uid="uid://ba5vdjsblhqvh" path="res://Storage/3d models/periodic table/obj/Be.obj" id="11_2esr8"]
+[ext_resource type="ArrayMesh" uid="uid://n47bgap0ohau" path="res://Storage/3d models/periodic table/obj/Bh.obj" id="12_kobg4"]
+[ext_resource type="ArrayMesh" uid="uid://dx5wgham1i16l" path="res://Storage/3d models/periodic table/obj/Bi.obj" id="13_covth"]
+[ext_resource type="ArrayMesh" uid="uid://craq6s5qohwhj" path="res://Storage/3d models/periodic table/obj/Bk.obj" id="14_e1vs6"]
+[ext_resource type="ArrayMesh" uid="uid://w8fpb1ufikj1" path="res://Storage/3d models/periodic table/obj/Br.obj" id="15_b6ekk"]
+[ext_resource type="ArrayMesh" uid="uid://brrtlyfai0dcn" path="res://Storage/3d models/periodic table/obj/C.obj" id="16_au2sf"]
+[ext_resource type="ArrayMesh" uid="uid://dfvdcq2qsjbwu" path="res://Storage/3d models/periodic table/obj/Ca.obj" id="17_4fl06"]
+[ext_resource type="ArrayMesh" uid="uid://krwaibp6pon8" path="res://Storage/3d models/periodic table/obj/Cd.obj" id="18_2v5he"]
+[ext_resource type="ArrayMesh" uid="uid://d1jf48at7l1n6" path="res://Storage/3d models/periodic table/obj/Ce.obj" id="19_8ws1v"]
+[ext_resource type="ArrayMesh" uid="uid://l7uwgly7ci1x" path="res://Storage/3d models/periodic table/obj/Cf.obj" id="20_7cce8"]
+[ext_resource type="ArrayMesh" uid="uid://c5rom5lwct254" path="res://Storage/3d models/periodic table/obj/Cl.obj" id="21_2r1iv"]
+[ext_resource type="ArrayMesh" uid="uid://bf70pg35q6rog" path="res://Storage/3d models/periodic table/obj/Cm.obj" id="22_j4is3"]
+[ext_resource type="ArrayMesh" uid="uid://bhbykw5fq655b" path="res://Storage/3d models/periodic table/obj/Cn.obj" id="23_a5xu5"]
+[ext_resource type="ArrayMesh" uid="uid://bolhajjcdcgbe" path="res://Storage/3d models/periodic table/obj/Co.obj" id="24_ntqjg"]
+[ext_resource type="ArrayMesh" uid="uid://beaygjjb8vn2w" path="res://Storage/3d models/periodic table/obj/Cr.obj" id="25_02r61"]
+[ext_resource type="ArrayMesh" uid="uid://chvt25ebcsioy" path="res://Storage/3d models/periodic table/obj/Cs.obj" id="26_o15os"]
+[ext_resource type="ArrayMesh" uid="uid://c7o0l8vw3xel6" path="res://Storage/3d models/periodic table/obj/Cu.obj" id="27_kpour"]
+[ext_resource type="ArrayMesh" uid="uid://covfl3tbrjnx0" path="res://Storage/3d models/periodic table/obj/Db.obj" id="28_gmyop"]
+[ext_resource type="ArrayMesh" uid="uid://cgiye3xrunpgw" path="res://Storage/3d models/periodic table/obj/Ds.obj" id="29_5de26"]
+[ext_resource type="ArrayMesh" uid="uid://ci00pbj0o0osr" path="res://Storage/3d models/periodic table/obj/Dy.obj" id="30_mkyhc"]
+[ext_resource type="ArrayMesh" uid="uid://dxujivbhmvdlm" path="res://Storage/3d models/periodic table/obj/Er.obj" id="31_u2frt"]
+[ext_resource type="ArrayMesh" uid="uid://cblf4p27h5fmy" path="res://Storage/3d models/periodic table/obj/Es.obj" id="32_hitif"]
+[ext_resource type="ArrayMesh" uid="uid://b20kgorvry8t0" path="res://Storage/3d models/periodic table/obj/Eu.obj" id="33_byrhi"]
+[ext_resource type="ArrayMesh" uid="uid://vosbte13utht" path="res://Storage/3d models/periodic table/obj/F.obj" id="34_rreel"]
+[ext_resource type="ArrayMesh" uid="uid://uflu0g142xw0" path="res://Storage/3d models/periodic table/obj/Fe.obj" id="35_hcja6"]
+[ext_resource type="ArrayMesh" uid="uid://bn0xly0q3rwb8" path="res://Storage/3d models/periodic table/obj/Fl.obj" id="36_8kxg7"]
+[ext_resource type="ArrayMesh" uid="uid://ddae2c1jeefj6" path="res://Storage/3d models/periodic table/obj/Fm.obj" id="37_c01qc"]
+[ext_resource type="ArrayMesh" uid="uid://bd6n6mo0357t1" path="res://Storage/3d models/periodic table/obj/Fr.obj" id="38_e58ya"]
+[ext_resource type="ArrayMesh" uid="uid://byx18qcyyn31d" path="res://Storage/3d models/periodic table/obj/Ga.obj" id="39_13nln"]
+[ext_resource type="ArrayMesh" uid="uid://f5o4vour2023" path="res://Storage/3d models/periodic table/obj/Gd.obj" id="40_yoo5d"]
+[ext_resource type="ArrayMesh" uid="uid://boswrqm8ib54h" path="res://Storage/3d models/periodic table/obj/Ge.obj" id="41_sipme"]
+[ext_resource type="ArrayMesh" uid="uid://qsm163up1wl2" path="res://Storage/3d models/periodic table/obj/H.obj" id="42_6hpje"]
+[ext_resource type="ArrayMesh" uid="uid://df5crt3ctenwu" path="res://Storage/3d models/periodic table/obj/He.obj" id="43_5r2ws"]
+[ext_resource type="ArrayMesh" uid="uid://bntprxxudwp8p" path="res://Storage/3d models/periodic table/obj/Hf.obj" id="44_csvcs"]
+[ext_resource type="ArrayMesh" uid="uid://5m82ehyc4oot" path="res://Storage/3d models/periodic table/obj/Hg.obj" id="45_cie25"]
+[ext_resource type="ArrayMesh" uid="uid://b6e03w7wguk0h" path="res://Storage/3d models/periodic table/obj/Ho.obj" id="46_284lg"]
+[ext_resource type="ArrayMesh" uid="uid://d0h8xb5c1tn2j" path="res://Storage/3d models/periodic table/obj/Hs.obj" id="47_ky8l7"]
+[ext_resource type="ArrayMesh" uid="uid://dwdtg7oa0im7" path="res://Storage/3d models/periodic table/obj/I.obj" id="48_fldho"]
+[ext_resource type="ArrayMesh" uid="uid://ckxicef8hqyes" path="res://Storage/3d models/periodic table/obj/In.obj" id="49_ugikm"]
+[ext_resource type="ArrayMesh" uid="uid://da2diw01c4bhp" path="res://Storage/3d models/periodic table/obj/Ir.obj" id="50_aravu"]
+[ext_resource type="ArrayMesh" uid="uid://2ow4wo212fa5" path="res://Storage/3d models/periodic table/obj/K.obj" id="51_ueype"]
+[ext_resource type="ArrayMesh" uid="uid://bfue3rrt4lk00" path="res://Storage/3d models/periodic table/obj/Kr.obj" id="52_8aj58"]
+[ext_resource type="ArrayMesh" uid="uid://rv75hly0f6lm" path="res://Storage/3d models/periodic table/obj/La.obj" id="53_4v8xe"]
+[ext_resource type="ArrayMesh" uid="uid://dqu5vw6sfmlyu" path="res://Storage/3d models/periodic table/obj/Li.obj" id="54_1x7tt"]
+[ext_resource type="ArrayMesh" uid="uid://gowp54qb5if5" path="res://Storage/3d models/periodic table/obj/Lr.obj" id="55_bxlpa"]
+[ext_resource type="ArrayMesh" uid="uid://cmfyjwk533cl8" path="res://Storage/3d models/periodic table/obj/Lu.obj" id="56_8dxxp"]
+[ext_resource type="ArrayMesh" uid="uid://bp88a2h2sodsu" path="res://Storage/3d models/periodic table/obj/Lv.obj" id="57_5rmin"]
+[ext_resource type="ArrayMesh" uid="uid://beparqeavd8rg" path="res://Storage/3d models/periodic table/obj/Mc.obj" id="58_l6dev"]
+[ext_resource type="ArrayMesh" uid="uid://b51k7882b01h4" path="res://Storage/3d models/periodic table/obj/Md.obj" id="59_d6sbr"]
+[ext_resource type="ArrayMesh" uid="uid://h2paq582e82" path="res://Storage/3d models/periodic table/obj/Mg.obj" id="60_liifb"]
+[ext_resource type="ArrayMesh" uid="uid://cnws8xf7kd0o3" path="res://Storage/3d models/periodic table/obj/Mn.obj" id="61_ved78"]
+[ext_resource type="ArrayMesh" uid="uid://dxr132ihmg5ip" path="res://Storage/3d models/periodic table/obj/Mo.obj" id="62_r50l1"]
+[ext_resource type="ArrayMesh" uid="uid://xvykaiupyo62" path="res://Storage/3d models/periodic table/obj/Mt.obj" id="63_qo85w"]
+[ext_resource type="ArrayMesh" uid="uid://bddjqntw11op1" path="res://Storage/3d models/periodic table/obj/N.obj" id="64_cilcx"]
+[ext_resource type="ArrayMesh" uid="uid://cp3miw5o1ltoq" path="res://Storage/3d models/periodic table/obj/Na.obj" id="65_5k0ya"]
+[ext_resource type="ArrayMesh" uid="uid://katvpuakb2br" path="res://Storage/3d models/periodic table/obj/Nb.obj" id="66_exhbb"]
+[ext_resource type="ArrayMesh" uid="uid://r8t6dms4uy5g" path="res://Storage/3d models/periodic table/obj/Nd.obj" id="67_clxhd"]
+[ext_resource type="ArrayMesh" uid="uid://b42r3lsnfjgfr" path="res://Storage/3d models/periodic table/obj/Ne.obj" id="68_7x6wa"]
+[ext_resource type="ArrayMesh" uid="uid://bon2fh64gdmlj" path="res://Storage/3d models/periodic table/obj/Nh.obj" id="69_ggkuy"]
+[ext_resource type="ArrayMesh" uid="uid://b4a2t3d25y20v" path="res://Storage/3d models/periodic table/obj/Ni.obj" id="70_tbonr"]
+[ext_resource type="ArrayMesh" uid="uid://rktcrm5xgbul" path="res://Storage/3d models/periodic table/obj/No.obj" id="71_uw8gk"]
+[ext_resource type="ArrayMesh" uid="uid://7r8v0th821je" path="res://Storage/3d models/periodic table/obj/Np.obj" id="72_xvs4u"]
+[ext_resource type="ArrayMesh" uid="uid://ox0i54fflfhs" path="res://Storage/3d models/periodic table/obj/O.obj" id="73_kkqnc"]
+[ext_resource type="ArrayMesh" uid="uid://b2p1ax8kqqj0r" path="res://Storage/3d models/periodic table/obj/Og.obj" id="74_on20j"]
+[ext_resource type="ArrayMesh" uid="uid://dgcehtlo55i0y" path="res://Storage/3d models/periodic table/obj/Os.obj" id="75_f74ss"]
+[ext_resource type="ArrayMesh" uid="uid://n13rnqqnel27" path="res://Storage/3d models/periodic table/obj/P.obj" id="76_k5hal"]
+[ext_resource type="ArrayMesh" uid="uid://byxph45ythkgs" path="res://Storage/3d models/periodic table/obj/Pa.obj" id="77_vjekr"]
+[ext_resource type="ArrayMesh" uid="uid://d0gmtb758vgyv" path="res://Storage/3d models/periodic table/obj/Pb.obj" id="78_cyhw4"]
+[ext_resource type="ArrayMesh" uid="uid://b7vw2mhlgx3gm" path="res://Storage/3d models/periodic table/obj/Pd.obj" id="79_vwcg4"]
+[ext_resource type="ArrayMesh" uid="uid://cdjdp60d0qekf" path="res://Storage/3d models/periodic table/obj/Pm.obj" id="80_x7ekw"]
+[ext_resource type="ArrayMesh" uid="uid://dhekewby8eb2" path="res://Storage/3d models/periodic table/obj/Po.obj" id="81_k46g0"]
+[ext_resource type="ArrayMesh" uid="uid://njgw2042ayap" path="res://Storage/3d models/periodic table/obj/Pr.obj" id="82_ekbmg"]
+[ext_resource type="ArrayMesh" uid="uid://ed4n4sytr8p8" path="res://Storage/3d models/periodic table/obj/Pt.obj" id="83_m8r48"]
+[ext_resource type="ArrayMesh" uid="uid://ddal7rgo00p7o" path="res://Storage/3d models/periodic table/obj/Pu.obj" id="84_ribjl"]
+[ext_resource type="ArrayMesh" uid="uid://cv8ovatsqrhx4" path="res://Storage/3d models/periodic table/obj/Ra.obj" id="85_5t37v"]
+[ext_resource type="ArrayMesh" uid="uid://du8urto8eeya" path="res://Storage/3d models/periodic table/obj/Rb.obj" id="86_v0lgh"]
+[ext_resource type="ArrayMesh" uid="uid://kiots664n6mv" path="res://Storage/3d models/periodic table/obj/Re.obj" id="87_qit1m"]
+[ext_resource type="ArrayMesh" uid="uid://dyi1hjsyiwxv7" path="res://Storage/3d models/periodic table/obj/Rf.obj" id="88_qt1ww"]
+[ext_resource type="ArrayMesh" uid="uid://0m5uxw4oh2xf" path="res://Storage/3d models/periodic table/obj/Rg.obj" id="89_yjp4i"]
+[ext_resource type="ArrayMesh" uid="uid://c73ma7n7iria1" path="res://Storage/3d models/periodic table/obj/Rh.obj" id="90_r4jft"]
+[ext_resource type="ArrayMesh" uid="uid://dmo5jm58ok1ql" path="res://Storage/3d models/periodic table/obj/Rn.obj" id="91_bjdg0"]
+[ext_resource type="ArrayMesh" uid="uid://bp0e5rwjam5nh" path="res://Storage/3d models/periodic table/obj/Ru.obj" id="92_o1vb0"]
+[ext_resource type="ArrayMesh" uid="uid://db03jtxg0wjda" path="res://Storage/3d models/periodic table/obj/S.obj" id="93_ad7ig"]
+[ext_resource type="ArrayMesh" uid="uid://dgy2v1rdohjmt" path="res://Storage/3d models/periodic table/obj/Sb.obj" id="94_yys4j"]
+[ext_resource type="ArrayMesh" uid="uid://puab3ohch8ar" path="res://Storage/3d models/periodic table/obj/Sc.obj" id="95_vf6yq"]
+[ext_resource type="ArrayMesh" uid="uid://ciux7shvcl6s1" path="res://Storage/3d models/periodic table/obj/Se.obj" id="96_najw1"]
+[ext_resource type="ArrayMesh" uid="uid://nhs3t04v6nd" path="res://Storage/3d models/periodic table/obj/Sg.obj" id="97_7ki2s"]
+[ext_resource type="ArrayMesh" uid="uid://o8aaisk1k1kl" path="res://Storage/3d models/periodic table/obj/Si.obj" id="98_7vnpe"]
+[ext_resource type="ArrayMesh" uid="uid://bgolmppdtmcrj" path="res://Storage/3d models/periodic table/obj/Sm.obj" id="99_yiwpl"]
+[ext_resource type="ArrayMesh" uid="uid://ctrlw75i1qgdu" path="res://Storage/3d models/periodic table/obj/Sn.obj" id="100_b6ul2"]
+[ext_resource type="ArrayMesh" uid="uid://b7u8pifxab1o0" path="res://Storage/3d models/periodic table/obj/Sr.obj" id="101_5uxi4"]
+[ext_resource type="ArrayMesh" uid="uid://cs015htgyt5ne" path="res://Storage/3d models/periodic table/obj/Ta.obj" id="102_wv5yv"]
+[ext_resource type="ArrayMesh" uid="uid://ceir4xtd1w0ef" path="res://Storage/3d models/periodic table/obj/Tb.obj" id="103_c8jyl"]
+[ext_resource type="ArrayMesh" uid="uid://b35o4ue7vocev" path="res://Storage/3d models/periodic table/obj/Tc.obj" id="104_fxqcl"]
+[ext_resource type="ArrayMesh" uid="uid://bdslinrqm78vs" path="res://Storage/3d models/periodic table/obj/Te.obj" id="105_dl43u"]
+[ext_resource type="ArrayMesh" uid="uid://d08obseoy1se1" path="res://Storage/3d models/periodic table/obj/Th.obj" id="106_hg7oq"]
+[ext_resource type="ArrayMesh" uid="uid://caplnkx51hwdq" path="res://Storage/3d models/periodic table/obj/Ti.obj" id="107_qdrbb"]
+[ext_resource type="ArrayMesh" uid="uid://kbleikq72i63" path="res://Storage/3d models/periodic table/obj/Tl.obj" id="108_ih1du"]
+[ext_resource type="ArrayMesh" uid="uid://w156ecvrt4m3" path="res://Storage/3d models/periodic table/obj/Tm.obj" id="109_c2e11"]
+[ext_resource type="ArrayMesh" uid="uid://bxafnkef5o5at" path="res://Storage/3d models/periodic table/obj/Ts.obj" id="110_4i8u7"]
+[ext_resource type="ArrayMesh" uid="uid://cc1ycv66imywh" path="res://Storage/3d models/periodic table/obj/U.obj" id="111_qp1v7"]
+[ext_resource type="ArrayMesh" uid="uid://dkyeq430two5k" path="res://Storage/3d models/periodic table/obj/V.obj" id="112_tqy6s"]
+[ext_resource type="ArrayMesh" uid="uid://nsha3b2y7wkf" path="res://Storage/3d models/periodic table/obj/W.obj" id="113_i77a2"]
+[ext_resource type="ArrayMesh" uid="uid://cmk7pciyqs4b5" path="res://Storage/3d models/periodic table/obj/Xe.obj" id="114_8atpl"]
+[ext_resource type="ArrayMesh" uid="uid://bu7ivtodjlkpq" path="res://Storage/3d models/periodic table/obj/Y.obj" id="115_nhwpa"]
+[ext_resource type="ArrayMesh" uid="uid://c45kfyp4lc7ho" path="res://Storage/3d models/periodic table/obj/Yb.obj" id="116_1guo3"]
+[ext_resource type="ArrayMesh" uid="uid://cp64kkyr02klj" path="res://Storage/3d models/periodic table/obj/Zn.obj" id="117_x61gg"]
+[ext_resource type="ArrayMesh" uid="uid://bthk5a7yn6e10" path="res://Storage/3d models/periodic table/obj/Zr.obj" id="118_vkgpm"]
+
+[sub_resource type="Environment" id="Environment_2jx0q"]
+background_mode = 1
+background_color = Color(0.196078, 0.196078, 0.196078, 1)
+
+[sub_resource type="Animation" id="Animation_ksral"]
+resource_name = "start-animation"
+length = 3.0
+tracks/0/type = "position_3d"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Chim-table/H")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/1/type = "position_3d"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Chim-table/Li")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/2/type = "position_3d"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Chim-table/Na")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/3/type = "position_3d"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Chim-table/K")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/4/type = "position_3d"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Chim-table/Rb")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/5/type = "position_3d"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Chim-table/Cs")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/6/type = "position_3d"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Chim-table/Fr")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/7/type = "position_3d"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Chim-table/Be")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/8/type = "position_3d"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Chim-table/Mg")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/9/type = "position_3d"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Chim-table/Ca")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/10/type = "position_3d"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Chim-table/Sr")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/11/type = "position_3d"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Chim-table/Ba")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/12/type = "position_3d"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Chim-table/Ra")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/13/type = "position_3d"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Chim-table/Sc")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/14/type = "position_3d"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Chim-table/Y")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = PackedFloat32Array(0, 1, -0.325177, 0, 0, 3, 1, 0, 0, 0)
+tracks/15/type = "position_3d"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Chim-table/He")
+tracks/15/interp = 2
+tracks/15/loop_wrap = true
+tracks/15/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/16/type = "position_3d"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Chim-table/Ne")
+tracks/16/interp = 2
+tracks/16/loop_wrap = true
+tracks/16/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/17/type = "position_3d"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Chim-table/Ar")
+tracks/17/interp = 2
+tracks/17/loop_wrap = true
+tracks/17/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/18/type = "position_3d"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("Chim-table/Kr")
+tracks/18/interp = 2
+tracks/18/loop_wrap = true
+tracks/18/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/19/type = "position_3d"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("Chim-table/Xe")
+tracks/19/interp = 2
+tracks/19/loop_wrap = true
+tracks/19/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/20/type = "position_3d"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("Chim-table/Rn")
+tracks/20/interp = 2
+tracks/20/loop_wrap = true
+tracks/20/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/21/type = "position_3d"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("Chim-table/Og")
+tracks/21/interp = 2
+tracks/21/loop_wrap = true
+tracks/21/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/22/type = "position_3d"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("Chim-table/F")
+tracks/22/interp = 2
+tracks/22/loop_wrap = true
+tracks/22/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/23/type = "position_3d"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("Chim-table/Cl")
+tracks/23/interp = 2
+tracks/23/loop_wrap = true
+tracks/23/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/24/type = "position_3d"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("Chim-table/Br")
+tracks/24/interp = 2
+tracks/24/loop_wrap = true
+tracks/24/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/25/type = "position_3d"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("Chim-table/I")
+tracks/25/interp = 2
+tracks/25/loop_wrap = true
+tracks/25/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/26/type = "position_3d"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("Chim-table/At")
+tracks/26/interp = 2
+tracks/26/loop_wrap = true
+tracks/26/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/27/type = "position_3d"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("Chim-table/Ts")
+tracks/27/interp = 2
+tracks/27/loop_wrap = true
+tracks/27/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/28/type = "position_3d"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("Chim-table/O")
+tracks/28/interp = 2
+tracks/28/loop_wrap = true
+tracks/28/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/29/type = "position_3d"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("Chim-table/S")
+tracks/29/interp = 2
+tracks/29/loop_wrap = true
+tracks/29/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/30/type = "position_3d"
+tracks/30/imported = false
+tracks/30/enabled = true
+tracks/30/path = NodePath("Chim-table/Se")
+tracks/30/interp = 2
+tracks/30/loop_wrap = true
+tracks/30/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/31/type = "position_3d"
+tracks/31/imported = false
+tracks/31/enabled = true
+tracks/31/path = NodePath("Chim-table/Te")
+tracks/31/interp = 2
+tracks/31/loop_wrap = true
+tracks/31/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/32/type = "position_3d"
+tracks/32/imported = false
+tracks/32/enabled = true
+tracks/32/path = NodePath("Chim-table/Po")
+tracks/32/interp = 2
+tracks/32/loop_wrap = true
+tracks/32/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/33/type = "position_3d"
+tracks/33/imported = false
+tracks/33/enabled = true
+tracks/33/path = NodePath("Chim-table/Lv")
+tracks/33/interp = 2
+tracks/33/loop_wrap = true
+tracks/33/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/34/type = "position_3d"
+tracks/34/imported = false
+tracks/34/enabled = true
+tracks/34/path = NodePath("Chim-table/Ti")
+tracks/34/interp = 2
+tracks/34/loop_wrap = true
+tracks/34/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/35/type = "position_3d"
+tracks/35/imported = false
+tracks/35/enabled = true
+tracks/35/path = NodePath("Chim-table/Zr")
+tracks/35/interp = 2
+tracks/35/loop_wrap = true
+tracks/35/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/36/type = "position_3d"
+tracks/36/imported = false
+tracks/36/enabled = true
+tracks/36/path = NodePath("Chim-table/Hf")
+tracks/36/interp = 2
+tracks/36/loop_wrap = true
+tracks/36/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/37/type = "position_3d"
+tracks/37/imported = false
+tracks/37/enabled = true
+tracks/37/path = NodePath("Chim-table/Rf")
+tracks/37/interp = 2
+tracks/37/loop_wrap = true
+tracks/37/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/38/type = "position_3d"
+tracks/38/imported = false
+tracks/38/enabled = true
+tracks/38/path = NodePath("Chim-table/N")
+tracks/38/interp = 2
+tracks/38/loop_wrap = true
+tracks/38/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/39/type = "position_3d"
+tracks/39/imported = false
+tracks/39/enabled = true
+tracks/39/path = NodePath("Chim-table/P")
+tracks/39/interp = 2
+tracks/39/loop_wrap = true
+tracks/39/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/40/type = "position_3d"
+tracks/40/imported = false
+tracks/40/enabled = true
+tracks/40/path = NodePath("Chim-table/As")
+tracks/40/interp = 2
+tracks/40/loop_wrap = true
+tracks/40/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/41/type = "position_3d"
+tracks/41/imported = false
+tracks/41/enabled = true
+tracks/41/path = NodePath("Chim-table/Sb")
+tracks/41/interp = 2
+tracks/41/loop_wrap = true
+tracks/41/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/42/type = "position_3d"
+tracks/42/imported = false
+tracks/42/enabled = true
+tracks/42/path = NodePath("Chim-table/Bi")
+tracks/42/interp = 2
+tracks/42/loop_wrap = true
+tracks/42/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/43/type = "position_3d"
+tracks/43/imported = false
+tracks/43/enabled = true
+tracks/43/path = NodePath("Chim-table/Mc")
+tracks/43/interp = 2
+tracks/43/loop_wrap = true
+tracks/43/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/44/type = "position_3d"
+tracks/44/imported = false
+tracks/44/enabled = true
+tracks/44/path = NodePath("Chim-table/C")
+tracks/44/interp = 2
+tracks/44/loop_wrap = true
+tracks/44/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/45/type = "position_3d"
+tracks/45/imported = false
+tracks/45/enabled = true
+tracks/45/path = NodePath("Chim-table/Si")
+tracks/45/interp = 2
+tracks/45/loop_wrap = true
+tracks/45/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/46/type = "position_3d"
+tracks/46/imported = false
+tracks/46/enabled = true
+tracks/46/path = NodePath("Chim-table/Ge")
+tracks/46/interp = 2
+tracks/46/loop_wrap = true
+tracks/46/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/47/type = "position_3d"
+tracks/47/imported = false
+tracks/47/enabled = true
+tracks/47/path = NodePath("Chim-table/Sn")
+tracks/47/interp = 2
+tracks/47/loop_wrap = true
+tracks/47/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/48/type = "position_3d"
+tracks/48/imported = false
+tracks/48/enabled = true
+tracks/48/path = NodePath("Chim-table/Pb")
+tracks/48/interp = 2
+tracks/48/loop_wrap = true
+tracks/48/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/49/type = "position_3d"
+tracks/49/imported = false
+tracks/49/enabled = true
+tracks/49/path = NodePath("Chim-table/Fl")
+tracks/49/interp = 2
+tracks/49/loop_wrap = true
+tracks/49/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/50/type = "position_3d"
+tracks/50/imported = false
+tracks/50/enabled = true
+tracks/50/path = NodePath("Chim-table/B")
+tracks/50/interp = 2
+tracks/50/loop_wrap = true
+tracks/50/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/51/type = "position_3d"
+tracks/51/imported = false
+tracks/51/enabled = true
+tracks/51/path = NodePath("Chim-table/Al")
+tracks/51/interp = 2
+tracks/51/loop_wrap = true
+tracks/51/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/52/type = "position_3d"
+tracks/52/imported = false
+tracks/52/enabled = true
+tracks/52/path = NodePath("Chim-table/Ga")
+tracks/52/interp = 2
+tracks/52/loop_wrap = true
+tracks/52/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/53/type = "position_3d"
+tracks/53/imported = false
+tracks/53/enabled = true
+tracks/53/path = NodePath("Chim-table/In")
+tracks/53/interp = 2
+tracks/53/loop_wrap = true
+tracks/53/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/54/type = "position_3d"
+tracks/54/imported = false
+tracks/54/enabled = true
+tracks/54/path = NodePath("Chim-table/Tl")
+tracks/54/interp = 2
+tracks/54/loop_wrap = true
+tracks/54/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/55/type = "position_3d"
+tracks/55/imported = false
+tracks/55/enabled = true
+tracks/55/path = NodePath("Chim-table/Nh")
+tracks/55/interp = 2
+tracks/55/loop_wrap = true
+tracks/55/keys = PackedFloat32Array(0, 1, 0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/56/type = "position_3d"
+tracks/56/imported = false
+tracks/56/enabled = true
+tracks/56/path = NodePath("Chim-table/V")
+tracks/56/interp = 2
+tracks/56/loop_wrap = true
+tracks/56/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/57/type = "position_3d"
+tracks/57/imported = false
+tracks/57/enabled = true
+tracks/57/path = NodePath("Chim-table/Nb")
+tracks/57/interp = 2
+tracks/57/loop_wrap = true
+tracks/57/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/58/type = "position_3d"
+tracks/58/imported = false
+tracks/58/enabled = true
+tracks/58/path = NodePath("Chim-table/Ta")
+tracks/58/interp = 2
+tracks/58/loop_wrap = true
+tracks/58/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/59/type = "position_3d"
+tracks/59/imported = false
+tracks/59/enabled = true
+tracks/59/path = NodePath("Chim-table/Db")
+tracks/59/interp = 2
+tracks/59/loop_wrap = true
+tracks/59/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/60/type = "position_3d"
+tracks/60/imported = false
+tracks/60/enabled = true
+tracks/60/path = NodePath("Chim-table/Cr")
+tracks/60/interp = 2
+tracks/60/loop_wrap = true
+tracks/60/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/61/type = "position_3d"
+tracks/61/imported = false
+tracks/61/enabled = true
+tracks/61/path = NodePath("Chim-table/Mo")
+tracks/61/interp = 2
+tracks/61/loop_wrap = true
+tracks/61/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/62/type = "position_3d"
+tracks/62/imported = false
+tracks/62/enabled = true
+tracks/62/path = NodePath("Chim-table/W")
+tracks/62/interp = 2
+tracks/62/loop_wrap = true
+tracks/62/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/63/type = "position_3d"
+tracks/63/imported = false
+tracks/63/enabled = true
+tracks/63/path = NodePath("Chim-table/Sg")
+tracks/63/interp = 2
+tracks/63/loop_wrap = true
+tracks/63/keys = PackedFloat32Array(0, 1, -0.325, 0, 0, 3, 1, 0, 0, 0)
+tracks/64/type = "position_3d"
+tracks/64/imported = false
+tracks/64/enabled = true
+tracks/64/path = NodePath("Chim-table/Mn")
+tracks/64/interp = 2
+tracks/64/loop_wrap = true
+tracks/64/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/65/type = "position_3d"
+tracks/65/imported = false
+tracks/65/enabled = true
+tracks/65/path = NodePath("Chim-table/Fe")
+tracks/65/interp = 2
+tracks/65/loop_wrap = true
+tracks/65/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/66/type = "position_3d"
+tracks/66/imported = false
+tracks/66/enabled = true
+tracks/66/path = NodePath("Chim-table/Co")
+tracks/66/interp = 2
+tracks/66/loop_wrap = true
+tracks/66/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/67/type = "position_3d"
+tracks/67/imported = false
+tracks/67/enabled = true
+tracks/67/path = NodePath("Chim-table/Ni")
+tracks/67/interp = 2
+tracks/67/loop_wrap = true
+tracks/67/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/68/type = "position_3d"
+tracks/68/imported = false
+tracks/68/enabled = true
+tracks/68/path = NodePath("Chim-table/Cu")
+tracks/68/interp = 2
+tracks/68/loop_wrap = true
+tracks/68/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/69/type = "position_3d"
+tracks/69/imported = false
+tracks/69/enabled = true
+tracks/69/path = NodePath("Chim-table/Zn")
+tracks/69/interp = 2
+tracks/69/loop_wrap = true
+tracks/69/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/70/type = "position_3d"
+tracks/70/imported = false
+tracks/70/enabled = true
+tracks/70/path = NodePath("Chim-table/Tc")
+tracks/70/interp = 2
+tracks/70/loop_wrap = true
+tracks/70/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/71/type = "position_3d"
+tracks/71/imported = false
+tracks/71/enabled = true
+tracks/71/path = NodePath("Chim-table/Ru")
+tracks/71/interp = 2
+tracks/71/loop_wrap = true
+tracks/71/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/72/type = "position_3d"
+tracks/72/imported = false
+tracks/72/enabled = true
+tracks/72/path = NodePath("Chim-table/Rh")
+tracks/72/interp = 2
+tracks/72/loop_wrap = true
+tracks/72/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/73/type = "position_3d"
+tracks/73/imported = false
+tracks/73/enabled = true
+tracks/73/path = NodePath("Chim-table/Pd")
+tracks/73/interp = 2
+tracks/73/loop_wrap = true
+tracks/73/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/74/type = "position_3d"
+tracks/74/imported = false
+tracks/74/enabled = true
+tracks/74/path = NodePath("Chim-table/Ag")
+tracks/74/interp = 2
+tracks/74/loop_wrap = true
+tracks/74/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/75/type = "position_3d"
+tracks/75/imported = false
+tracks/75/enabled = true
+tracks/75/path = NodePath("Chim-table/Cd")
+tracks/75/interp = 2
+tracks/75/loop_wrap = true
+tracks/75/keys = PackedFloat32Array(0, 1, 0, 0.325, 0, 3, 1, 0, 0, 0)
+tracks/76/type = "position_3d"
+tracks/76/imported = false
+tracks/76/enabled = true
+tracks/76/path = NodePath("Chim-table/Re")
+tracks/76/interp = 2
+tracks/76/loop_wrap = true
+tracks/76/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/77/type = "position_3d"
+tracks/77/imported = false
+tracks/77/enabled = true
+tracks/77/path = NodePath("Chim-table/Os")
+tracks/77/interp = 2
+tracks/77/loop_wrap = true
+tracks/77/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/78/type = "position_3d"
+tracks/78/imported = false
+tracks/78/enabled = true
+tracks/78/path = NodePath("Chim-table/Ir")
+tracks/78/interp = 2
+tracks/78/loop_wrap = true
+tracks/78/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/79/type = "position_3d"
+tracks/79/imported = false
+tracks/79/enabled = true
+tracks/79/path = NodePath("Chim-table/Pt")
+tracks/79/interp = 2
+tracks/79/loop_wrap = true
+tracks/79/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/80/type = "position_3d"
+tracks/80/imported = false
+tracks/80/enabled = true
+tracks/80/path = NodePath("Chim-table/Au")
+tracks/80/interp = 2
+tracks/80/loop_wrap = true
+tracks/80/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/81/type = "position_3d"
+tracks/81/imported = false
+tracks/81/enabled = true
+tracks/81/path = NodePath("Chim-table/Hg")
+tracks/81/interp = 2
+tracks/81/loop_wrap = true
+tracks/81/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/82/type = "position_3d"
+tracks/82/imported = false
+tracks/82/enabled = true
+tracks/82/path = NodePath("Chim-table/Bh")
+tracks/82/interp = 2
+tracks/82/loop_wrap = true
+tracks/82/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/83/type = "position_3d"
+tracks/83/imported = false
+tracks/83/enabled = true
+tracks/83/path = NodePath("Chim-table/Hs")
+tracks/83/interp = 2
+tracks/83/loop_wrap = true
+tracks/83/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/84/type = "position_3d"
+tracks/84/imported = false
+tracks/84/enabled = true
+tracks/84/path = NodePath("Chim-table/Mt")
+tracks/84/interp = 2
+tracks/84/loop_wrap = true
+tracks/84/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/85/type = "position_3d"
+tracks/85/imported = false
+tracks/85/enabled = true
+tracks/85/path = NodePath("Chim-table/Ds")
+tracks/85/interp = 2
+tracks/85/loop_wrap = true
+tracks/85/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/86/type = "position_3d"
+tracks/86/imported = false
+tracks/86/enabled = true
+tracks/86/path = NodePath("Chim-table/Rg")
+tracks/86/interp = 2
+tracks/86/loop_wrap = true
+tracks/86/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/87/type = "position_3d"
+tracks/87/imported = false
+tracks/87/enabled = true
+tracks/87/path = NodePath("Chim-table/Cn")
+tracks/87/interp = 2
+tracks/87/loop_wrap = true
+tracks/87/keys = PackedFloat32Array(0, 1, 0, -0.325, 0, 1.5, 1, 0, 0, 0)
+tracks/88/type = "position_3d"
+tracks/88/imported = false
+tracks/88/enabled = true
+tracks/88/path = NodePath("Chim-table/La")
+tracks/88/interp = 2
+tracks/88/loop_wrap = true
+tracks/88/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/89/type = "position_3d"
+tracks/89/imported = false
+tracks/89/enabled = true
+tracks/89/path = NodePath("Chim-table/Ce")
+tracks/89/interp = 2
+tracks/89/loop_wrap = true
+tracks/89/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/90/type = "position_3d"
+tracks/90/imported = false
+tracks/90/enabled = true
+tracks/90/path = NodePath("Chim-table/Pr")
+tracks/90/interp = 2
+tracks/90/loop_wrap = true
+tracks/90/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/91/type = "position_3d"
+tracks/91/imported = false
+tracks/91/enabled = true
+tracks/91/path = NodePath("Chim-table/Nd")
+tracks/91/interp = 2
+tracks/91/loop_wrap = true
+tracks/91/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/92/type = "position_3d"
+tracks/92/imported = false
+tracks/92/enabled = true
+tracks/92/path = NodePath("Chim-table/Pm")
+tracks/92/interp = 2
+tracks/92/loop_wrap = true
+tracks/92/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/93/type = "position_3d"
+tracks/93/imported = false
+tracks/93/enabled = true
+tracks/93/path = NodePath("Chim-table/Sm")
+tracks/93/interp = 2
+tracks/93/loop_wrap = true
+tracks/93/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/94/type = "position_3d"
+tracks/94/imported = false
+tracks/94/enabled = true
+tracks/94/path = NodePath("Chim-table/Eu")
+tracks/94/interp = 2
+tracks/94/loop_wrap = true
+tracks/94/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/95/type = "position_3d"
+tracks/95/imported = false
+tracks/95/enabled = true
+tracks/95/path = NodePath("Chim-table/Gd")
+tracks/95/interp = 2
+tracks/95/loop_wrap = true
+tracks/95/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/96/type = "position_3d"
+tracks/96/imported = false
+tracks/96/enabled = true
+tracks/96/path = NodePath("Chim-table/Tb")
+tracks/96/interp = 2
+tracks/96/loop_wrap = true
+tracks/96/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/97/type = "position_3d"
+tracks/97/imported = false
+tracks/97/enabled = true
+tracks/97/path = NodePath("Chim-table/Dy")
+tracks/97/interp = 2
+tracks/97/loop_wrap = true
+tracks/97/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/98/type = "position_3d"
+tracks/98/imported = false
+tracks/98/enabled = true
+tracks/98/path = NodePath("Chim-table/Ho")
+tracks/98/interp = 2
+tracks/98/loop_wrap = true
+tracks/98/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/99/type = "position_3d"
+tracks/99/imported = false
+tracks/99/enabled = true
+tracks/99/path = NodePath("Chim-table/Er")
+tracks/99/interp = 2
+tracks/99/loop_wrap = true
+tracks/99/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/100/type = "position_3d"
+tracks/100/imported = false
+tracks/100/enabled = true
+tracks/100/path = NodePath("Chim-table/Tm")
+tracks/100/interp = 2
+tracks/100/loop_wrap = true
+tracks/100/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/101/type = "position_3d"
+tracks/101/imported = false
+tracks/101/enabled = true
+tracks/101/path = NodePath("Chim-table/Yb")
+tracks/101/interp = 2
+tracks/101/loop_wrap = true
+tracks/101/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/102/type = "position_3d"
+tracks/102/imported = false
+tracks/102/enabled = true
+tracks/102/path = NodePath("Chim-table/Lu")
+tracks/102/interp = 2
+tracks/102/loop_wrap = true
+tracks/102/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/103/type = "position_3d"
+tracks/103/imported = false
+tracks/103/enabled = true
+tracks/103/path = NodePath("Chim-table/Ac")
+tracks/103/interp = 2
+tracks/103/loop_wrap = true
+tracks/103/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/104/type = "position_3d"
+tracks/104/imported = false
+tracks/104/enabled = true
+tracks/104/path = NodePath("Chim-table/Th")
+tracks/104/interp = 2
+tracks/104/loop_wrap = true
+tracks/104/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/105/type = "position_3d"
+tracks/105/imported = false
+tracks/105/enabled = true
+tracks/105/path = NodePath("Chim-table/Pa")
+tracks/105/interp = 2
+tracks/105/loop_wrap = true
+tracks/105/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/106/type = "position_3d"
+tracks/106/imported = false
+tracks/106/enabled = true
+tracks/106/path = NodePath("Chim-table/U")
+tracks/106/interp = 2
+tracks/106/loop_wrap = true
+tracks/106/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/107/type = "position_3d"
+tracks/107/imported = false
+tracks/107/enabled = true
+tracks/107/path = NodePath("Chim-table/Np")
+tracks/107/interp = 2
+tracks/107/loop_wrap = true
+tracks/107/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/108/type = "position_3d"
+tracks/108/imported = false
+tracks/108/enabled = true
+tracks/108/path = NodePath("Chim-table/Am")
+tracks/108/interp = 2
+tracks/108/loop_wrap = true
+tracks/108/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/109/type = "position_3d"
+tracks/109/imported = false
+tracks/109/enabled = true
+tracks/109/path = NodePath("Chim-table/Cm")
+tracks/109/interp = 2
+tracks/109/loop_wrap = true
+tracks/109/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/110/type = "position_3d"
+tracks/110/imported = false
+tracks/110/enabled = true
+tracks/110/path = NodePath("Chim-table/Bk")
+tracks/110/interp = 2
+tracks/110/loop_wrap = true
+tracks/110/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/111/type = "position_3d"
+tracks/111/imported = false
+tracks/111/enabled = true
+tracks/111/path = NodePath("Chim-table/Cf")
+tracks/111/interp = 2
+tracks/111/loop_wrap = true
+tracks/111/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/112/type = "position_3d"
+tracks/112/imported = false
+tracks/112/enabled = true
+tracks/112/path = NodePath("Chim-table/Es")
+tracks/112/interp = 2
+tracks/112/loop_wrap = true
+tracks/112/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/113/type = "position_3d"
+tracks/113/imported = false
+tracks/113/enabled = true
+tracks/113/path = NodePath("Chim-table/Fm")
+tracks/113/interp = 2
+tracks/113/loop_wrap = true
+tracks/113/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/114/type = "position_3d"
+tracks/114/imported = false
+tracks/114/enabled = true
+tracks/114/path = NodePath("Chim-table/Md")
+tracks/114/interp = 2
+tracks/114/loop_wrap = true
+tracks/114/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/115/type = "position_3d"
+tracks/115/imported = false
+tracks/115/enabled = true
+tracks/115/path = NodePath("Chim-table/No")
+tracks/115/interp = 2
+tracks/115/loop_wrap = true
+tracks/115/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/116/type = "position_3d"
+tracks/116/imported = false
+tracks/116/enabled = true
+tracks/116/path = NodePath("Chim-table/Lr")
+tracks/116/interp = 2
+tracks/116/loop_wrap = true
+tracks/116/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+tracks/117/type = "position_3d"
+tracks/117/imported = false
+tracks/117/enabled = true
+tracks/117/path = NodePath("Chim-table/Pu")
+tracks/117/interp = 2
+tracks/117/loop_wrap = true
+tracks/117/keys = PackedFloat32Array(0, 1, 0.4, 0, 0, 3, 1, 0, 0, 0)
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jdxf5"]
+_data = {
+"start-animation": SubResource("Animation_ksral")
+}
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_2idvj")
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0.165)
+target_position = Vector3(0, 0.3, 0)
+collide_with_areas = true
+script = ExtResource("2_g6mj4")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.164739)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.638404)
+light_energy = 2.0
+
+[node name="Chim-table" type="Node" parent="."]
+
+[node name="Ac" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("1_yko5x")
+skeleton = NodePath("../..")
+
+[node name="Ag" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("2_tfj3f")
+skeleton = NodePath("../..")
+
+[node name="Al" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("3_qshff")
+skeleton = NodePath("../..")
+
+[node name="Am" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("4_tu66i")
+skeleton = NodePath("../..")
+
+[node name="Ar" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("5_7fbo7")
+skeleton = NodePath("../..")
+
+[node name="As" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("6_iw02f")
+skeleton = NodePath("../..")
+
+[node name="At" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("7_yptrp")
+skeleton = NodePath("../..")
+
+[node name="Au" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("8_6q0fl")
+skeleton = NodePath("../..")
+
+[node name="B" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("9_aidvc")
+skeleton = NodePath("../..")
+
+[node name="Ba" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("10_pglbx")
+skeleton = NodePath("../..")
+
+[node name="Be" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("11_2esr8")
+skeleton = NodePath("../..")
+
+[node name="Bh" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("12_kobg4")
+skeleton = NodePath("../..")
+
+[node name="Bi" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("13_covth")
+skeleton = NodePath("../..")
+
+[node name="Bk" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("14_e1vs6")
+skeleton = NodePath("../..")
+
+[node name="Br" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("15_b6ekk")
+skeleton = NodePath("../..")
+
+[node name="C" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("16_au2sf")
+skeleton = NodePath("../..")
+
+[node name="Ca" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("17_4fl06")
+skeleton = NodePath("../..")
+
+[node name="Cd" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("18_2v5he")
+skeleton = NodePath("../..")
+
+[node name="Ce" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("19_8ws1v")
+skeleton = NodePath("../..")
+
+[node name="Cf" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("20_7cce8")
+skeleton = NodePath("../..")
+
+[node name="Cl" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("21_2r1iv")
+skeleton = NodePath("../..")
+
+[node name="Cm" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("22_j4is3")
+skeleton = NodePath("../..")
+
+[node name="Cn" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("23_a5xu5")
+skeleton = NodePath("../..")
+
+[node name="Co" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("24_ntqjg")
+skeleton = NodePath("../..")
+
+[node name="Cr" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("25_02r61")
+skeleton = NodePath("../..")
+
+[node name="Cs" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("26_o15os")
+skeleton = NodePath("../..")
+
+[node name="Cu" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("27_kpour")
+skeleton = NodePath("../..")
+
+[node name="Db" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("28_gmyop")
+skeleton = NodePath("../..")
+
+[node name="Ds" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("29_5de26")
+skeleton = NodePath("../..")
+
+[node name="Dy" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("30_mkyhc")
+skeleton = NodePath("../..")
+
+[node name="Er" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("31_u2frt")
+skeleton = NodePath("../..")
+
+[node name="Es" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("32_hitif")
+skeleton = NodePath("../..")
+
+[node name="Eu" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("33_byrhi")
+skeleton = NodePath("../..")
+
+[node name="F" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("34_rreel")
+skeleton = NodePath("../..")
+
+[node name="Fe" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("35_hcja6")
+skeleton = NodePath("../..")
+
+[node name="Fl" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("36_8kxg7")
+skeleton = NodePath("../..")
+
+[node name="Fm" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("37_c01qc")
+skeleton = NodePath("../..")
+
+[node name="Fr" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("38_e58ya")
+skeleton = NodePath("../..")
+
+[node name="Ga" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("39_13nln")
+skeleton = NodePath("../..")
+
+[node name="Gd" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("40_yoo5d")
+skeleton = NodePath("../..")
+
+[node name="Ge" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("41_sipme")
+skeleton = NodePath("../..")
+
+[node name="H" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("42_6hpje")
+skeleton = NodePath("../..")
+
+[node name="He" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("43_5r2ws")
+skeleton = NodePath("../..")
+
+[node name="Hf" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("44_csvcs")
+skeleton = NodePath("../..")
+
+[node name="Hg" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("45_cie25")
+skeleton = NodePath("../..")
+
+[node name="Ho" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("46_284lg")
+skeleton = NodePath("../..")
+
+[node name="Hs" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("47_ky8l7")
+skeleton = NodePath("../..")
+
+[node name="I" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("48_fldho")
+skeleton = NodePath("../..")
+
+[node name="In" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("49_ugikm")
+skeleton = NodePath("../..")
+
+[node name="Ir" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("50_aravu")
+skeleton = NodePath("../..")
+
+[node name="K" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("51_ueype")
+skeleton = NodePath("../..")
+
+[node name="Kr" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("52_8aj58")
+skeleton = NodePath("../..")
+
+[node name="La" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("53_4v8xe")
+skeleton = NodePath("../..")
+
+[node name="Li" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("54_1x7tt")
+skeleton = NodePath("../..")
+
+[node name="Lr" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("55_bxlpa")
+skeleton = NodePath("../..")
+
+[node name="Lu" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("56_8dxxp")
+skeleton = NodePath("../..")
+
+[node name="Lv" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("57_5rmin")
+skeleton = NodePath("../..")
+
+[node name="Mc" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("58_l6dev")
+skeleton = NodePath("../..")
+
+[node name="Md" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("59_d6sbr")
+skeleton = NodePath("../..")
+
+[node name="Mg" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("60_liifb")
+skeleton = NodePath("../..")
+
+[node name="Mn" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("61_ved78")
+skeleton = NodePath("../..")
+
+[node name="Mo" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("62_r50l1")
+skeleton = NodePath("../..")
+
+[node name="Mt" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("63_qo85w")
+skeleton = NodePath("../..")
+
+[node name="N" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("64_cilcx")
+skeleton = NodePath("../..")
+
+[node name="Na" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("65_5k0ya")
+skeleton = NodePath("../..")
+
+[node name="Nb" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("66_exhbb")
+skeleton = NodePath("../..")
+
+[node name="Nd" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("67_clxhd")
+skeleton = NodePath("../..")
+
+[node name="Ne" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("68_7x6wa")
+skeleton = NodePath("../..")
+
+[node name="Nh" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("69_ggkuy")
+skeleton = NodePath("../..")
+
+[node name="Ni" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("70_tbonr")
+skeleton = NodePath("../..")
+
+[node name="No" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("71_uw8gk")
+skeleton = NodePath("../..")
+
+[node name="Np" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("72_xvs4u")
+skeleton = NodePath("../..")
+
+[node name="O" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("73_kkqnc")
+skeleton = NodePath("../..")
+
+[node name="Og" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("74_on20j")
+skeleton = NodePath("../..")
+
+[node name="Os" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("75_f74ss")
+skeleton = NodePath("../..")
+
+[node name="P" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("76_k5hal")
+skeleton = NodePath("../..")
+
+[node name="Pa" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("77_vjekr")
+skeleton = NodePath("../..")
+
+[node name="Pb" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("78_cyhw4")
+skeleton = NodePath("../..")
+
+[node name="Pd" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("79_vwcg4")
+skeleton = NodePath("../..")
+
+[node name="Pm" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("80_x7ekw")
+skeleton = NodePath("../..")
+
+[node name="Po" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("81_k46g0")
+skeleton = NodePath("../..")
+
+[node name="Pr" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("82_ekbmg")
+skeleton = NodePath("../..")
+
+[node name="Pt" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("83_m8r48")
+skeleton = NodePath("../..")
+
+[node name="Pu" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("84_ribjl")
+skeleton = NodePath("../..")
+
+[node name="Ra" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("85_5t37v")
+skeleton = NodePath("../..")
+
+[node name="Rb" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("86_v0lgh")
+skeleton = NodePath("../..")
+
+[node name="Re" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("87_qit1m")
+skeleton = NodePath("../..")
+
+[node name="Rf" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("88_qt1ww")
+skeleton = NodePath("../..")
+
+[node name="Rg" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("89_yjp4i")
+skeleton = NodePath("../..")
+
+[node name="Rh" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("90_r4jft")
+skeleton = NodePath("../..")
+
+[node name="Rn" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("91_bjdg0")
+skeleton = NodePath("../..")
+
+[node name="Ru" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("92_o1vb0")
+skeleton = NodePath("../..")
+
+[node name="S" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("93_ad7ig")
+skeleton = NodePath("../..")
+
+[node name="Sb" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("94_yys4j")
+skeleton = NodePath("../..")
+
+[node name="Sc" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("95_vf6yq")
+skeleton = NodePath("../..")
+
+[node name="Se" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("96_najw1")
+skeleton = NodePath("../..")
+
+[node name="Sg" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("97_7ki2s")
+skeleton = NodePath("../..")
+
+[node name="Si" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("98_7vnpe")
+skeleton = NodePath("../..")
+
+[node name="Sm" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("99_yiwpl")
+skeleton = NodePath("../..")
+
+[node name="Sn" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("100_b6ul2")
+skeleton = NodePath("../..")
+
+[node name="Sr" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("101_5uxi4")
+skeleton = NodePath("../..")
+
+[node name="Ta" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("102_wv5yv")
+skeleton = NodePath("../..")
+
+[node name="Tb" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("103_c8jyl")
+skeleton = NodePath("../..")
+
+[node name="Tc" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("104_fxqcl")
+skeleton = NodePath("../..")
+
+[node name="Te" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("105_dl43u")
+skeleton = NodePath("../..")
+
+[node name="Th" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("106_hg7oq")
+skeleton = NodePath("../..")
+
+[node name="Ti" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("107_qdrbb")
+skeleton = NodePath("../..")
+
+[node name="Tl" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("108_ih1du")
+skeleton = NodePath("../..")
+
+[node name="Tm" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("109_c2e11")
+skeleton = NodePath("../..")
+
+[node name="Ts" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("110_4i8u7")
+skeleton = NodePath("../..")
+
+[node name="U" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("111_qp1v7")
+skeleton = NodePath("../..")
+
+[node name="V" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("112_tqy6s")
+skeleton = NodePath("../..")
+
+[node name="W" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("113_i77a2")
+skeleton = NodePath("../..")
+
+[node name="Xe" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("114_8atpl")
+skeleton = NodePath("../..")
+
+[node name="Y" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("115_nhwpa")
+skeleton = NodePath("../..")
+
+[node name="Yb" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("116_1guo3")
+skeleton = NodePath("../..")
+
+[node name="Zn" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("117_x61gg")
+skeleton = NodePath("../..")
+
+[node name="Zr" type="MeshInstance3D" parent="Chim-table"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("118_vkgpm")
+skeleton = NodePath("../..")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_2jx0q")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_jdxf5")
+}
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -168.0
+offset_top = -86.5
+offset_right = 168.0
+offset_bottom = 86.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 120
+text = "Start"
+
+[node name="Node" type="Node" parent="."]
+
+[node name="H" type="Button" parent="Node"]
+anchors_preset = -1
+anchor_left = 0.196354
+anchor_top = 0.0898148
+anchor_right = 0.229167
+anchor_bottom = 0.173148
+offset_top = 4.0
+offset_bottom = 4.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Li" type="Button" parent="Node"]
+anchors_preset = -1
+anchor_left = 0.196354
+anchor_top = 0.173148
+anchor_right = 0.229167
+anchor_bottom = 0.256481
+offset_top = 4.0
+offset_bottom = 4.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Na" type="Button" parent="Node"]
+anchors_preset = -1
+anchor_left = 0.196354
+anchor_top = 0.256481
+anchor_right = 0.229167
+anchor_bottom = 0.339815
+offset_top = 4.0
+offset_bottom = 4.0
+metadata/_edit_use_anchors_ = true
+
+[node name="K" type="Button" parent="Node"]
+anchors_preset = -1
+anchor_left = 0.196354
+anchor_top = 0.339815
+anchor_right = 0.229167
+anchor_bottom = 0.423148
+offset_top = 4.0
+offset_bottom = 4.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Rb" type="Button" parent="Node"]
+anchors_preset = -1
+anchor_left = 0.196354
+anchor_top = 0.423148
+anchor_right = 0.229167
+anchor_bottom = 0.506481
+offset_top = 4.0
+offset_bottom = 4.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Cs" type="Button" parent="Node"]
+anchors_preset = -1
+anchor_left = 0.196354
+anchor_top = 0.506481
+anchor_right = 0.229167
+anchor_bottom = 0.589815
+offset_top = 4.0
+offset_bottom = 4.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Fr" type="Button" parent="Node"]
+anchors_preset = -1
+anchor_left = 0.196354
+anchor_top = 0.589815
+anchor_right = 0.229167
+anchor_bottom = 0.673148
+offset_top = 4.0
+offset_bottom = 4.0
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

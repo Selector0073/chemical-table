@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chvt25ebcsioy"
+path="res://.godot/imported/Cs.obj-c9a2c5420dc5a5b07430b79ae8ad262f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cs.obj-c9a2c5420dc5a5b07430b79ae8ad262f.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Cs.obj"
+dest_files=["res://.godot/imported/Cs.obj-c9a2c5420dc5a5b07430b79ae8ad262f.mesh", "res://.godot/imported/Cs.obj-c9a2c5420dc5a5b07430b79ae8ad262f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

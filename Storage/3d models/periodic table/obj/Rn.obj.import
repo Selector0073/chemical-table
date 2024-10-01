@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmo5jm58ok1ql"
+path="res://.godot/imported/Rn.obj-36f3225c05debac622b1684f1e106b49.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Rn.obj-36f3225c05debac622b1684f1e106b49.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Rn.obj"
+dest_files=["res://.godot/imported/Rn.obj-36f3225c05debac622b1684f1e106b49.mesh", "res://.godot/imported/Rn.obj-36f3225c05debac622b1684f1e106b49.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

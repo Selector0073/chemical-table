@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://kbleikq72i63"
+path="res://.godot/imported/Tl.obj-eeded9d610819635c0bc54e09c8d4dba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Tl.obj-eeded9d610819635c0bc54e09c8d4dba.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Tl.obj"
+dest_files=["res://.godot/imported/Tl.obj-eeded9d610819635c0bc54e09c8d4dba.mesh", "res://.godot/imported/Tl.obj-eeded9d610819635c0bc54e09c8d4dba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

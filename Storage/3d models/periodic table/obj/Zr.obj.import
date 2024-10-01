@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bthk5a7yn6e10"
+path="res://.godot/imported/Zr.obj-8ffca22e358b9b440800cd5c05e8fd58.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Zr.obj-8ffca22e358b9b440800cd5c05e8fd58.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Zr.obj"
+dest_files=["res://.godot/imported/Zr.obj-8ffca22e358b9b440800cd5c05e8fd58.mesh", "res://.godot/imported/Zr.obj-8ffca22e358b9b440800cd5c05e8fd58.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

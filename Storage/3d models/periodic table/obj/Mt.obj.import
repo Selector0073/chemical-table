@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xvykaiupyo62"
+path="res://.godot/imported/Mt.obj-a92f1521575bc336e26d70b2fc8f5bbb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Mt.obj-a92f1521575bc336e26d70b2fc8f5bbb.mesh"]
+
+source_file="res://Storage/3d models/periodic table/obj/Mt.obj"
+dest_files=["res://.godot/imported/Mt.obj-a92f1521575bc336e26d70b2fc8f5bbb.mesh", "res://.godot/imported/Mt.obj-a92f1521575bc336e26d70b2fc8f5bbb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
