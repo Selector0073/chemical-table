@@ -17,4 +17,4 @@
       |____|   (____  /|___  /|____/ \___  >                      
                     \/     \/            \/                       
 
-        Das Projekt wurde für eine Informatikstunde erstellt. 
+Web project about the periodic table
