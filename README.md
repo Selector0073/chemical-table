@@ -18,4 +18,3 @@
                     \/     \/            \/                       
 
 Web project about the periodic table
-position: fixed
